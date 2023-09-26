@@ -1,0 +1,25 @@
+.picture{
+    image-orientation: from-image;
+}
+
+.picture-with-info{
+    display: flex;
+    align-items: center;
+    
+    width: 800px;
+    border-style: groove;
+    margin-top: 30px;
+    background-image: linear-gradient(rgb(119, 205, 255),white);
+}
+
+.caption {
+    font-size: 12px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+@media(max-width: 600px){
+    .picture-with-info{
+        width:400px;
+    }
+}

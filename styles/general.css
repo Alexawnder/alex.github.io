@@ -1,0 +1,38 @@
+p {
+    font-family:  Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+body {
+    margin: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: rgb(119, 205, 255);
+    color: black;
+    scroll-behavior: smooth;
+    float: left;
+}
+
+h1 {
+    font-weight: bolder;
+    text-decoration: dotted;
+}
+
+a:link {
+    text-decoration: underline;
+    color:green;
+}
+
+a:visited{
+    text-decoration: underline;
+    color: red;
+}
+
+a:active{
+    background-color: yellow;
+}

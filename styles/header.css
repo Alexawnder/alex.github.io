@@ -1,0 +1,33 @@
+.header{
+    display: flex;  
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+
+    top:0;
+    left: 0;
+    right:0;
+    z-index: 100;
+    position:fixed;
+    background-color: rgb(119, 205, 255);
+    align-items: center;
+    border-bottom-style: double;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+}
+
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.different-page{
+    margin-left: 20px;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
