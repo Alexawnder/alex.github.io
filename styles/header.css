@@ -26,6 +26,31 @@
     margin-left: 20px;
 }
 
+
+.image-discord{
+    height: 35px;
+    width: 32px;
+    margin-left: 20px;
+}
+
+
+.image-icon-storage{
+    display:flex;
+    align-items: center
+}
+.image-icon{
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+    border-radius: 17px;
+}
+
+.image-discord:hover, .image-icon:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+
 .right-section{
     display: flex;
     align-items: center;
