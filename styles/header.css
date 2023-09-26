@@ -24,6 +24,12 @@
 
 .different-page{
     margin-left: 20px;
+    font-size: 18px;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
 }
 
 
