@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Alexander Lee">
         <title>Second Homework</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="/images/page-icon.jpg" type="image/x-icon" style="border-radius: 20px;">
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/body.css">
         <link rel="stylesheet" href="styles/header.css">
@@ -97,21 +97,29 @@
             in the past few years. <a href="cooking.html">Favorite Recipe!</a>
             <hr>
         </article>
-
-        <table>
-            <tr>
-                <td><img  class = "picture" src="images/alfredo.jpg" alt= "Chicken Alfredo" width = 300 height = 400></td>
-                <td><img  class = "picture" src="images/hainan.jpg" alt= "Hainan Chicken" width = 300 height = 400></td>
-            </tr>
-            <tr>
-                <td><img  class = "picture" src="images/budae.jpg" alt= "Korean Army Stew" width = 300 height = 400></td>
-                <td><img  class = "picture" src="images/doenjang.jpg" alt= "Soybean Stew" width = 300 height = 400></td>
-            </tr>
-        </table>
-        <h5>From left to right: Chicken Alfredo, Hainan Chicken, Korean Army Stew, Soybean Stew</h5>
-
-        <div>
-            <details><summary>Favorite Playlist</summary> I've been listening to classical music a lot more recently after getting into watching different piano and violin concertos</details>
+        <div class="picture-graph">
+            <div class="food-with-info">
+                <img  class = "picture" src="images/alfredo.jpg" alt= "Chicken Alfredo" width = 300 height = 400>
+                <div class="food-caption">Chicken Alfredo Recipe by Joshua Weissman</div>
+            </div>
+            <div class="food-with-info">
+                <img  class = "picture" src="images/hainan.jpg" alt= "Hainan Chicken" width = 300 height = 400>
+                <div class="food-caption">Hainan Chicken Recipe by Myself</div>
+            </div>
+            <div class="food-with-info">
+                <img  class = "picture" src="images/budae.jpg" alt= "Korean Army Stew" width = 300 height = 400>
+                <div class="food-caption">Budae Jjigae Recipe by Maangchi</div>
+            </div>
+            <div class="food-with-info">
+                <img  class = "picture" src="images/doenjang.jpg" alt= "Soybean Stew" width = 300 height = 400>
+                <div class="food-caption">Doenjang Jjigae Recipe by Maangchi</div>
+            </div>
+        </div>
+    
+        <div class="favorite-playlist">
+            <div class="summary-info">
+                <details><summary>Favorite Playlist</summary> I've been listening to classical music a lot more recently after getting into watching different piano and violin concertos</details>
+            </div>
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/27Zm1P410dPfedsdoO9fqm?utm_source=generator" width="700" height="500" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
 
